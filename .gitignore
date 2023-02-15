@@ -1,0 +1,7 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in directories
+venv/
+__pycache__/
+.github/workflows/
