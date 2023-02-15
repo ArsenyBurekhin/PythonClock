@@ -3,7 +3,7 @@ import ClockNumbers
 import ClockArrows
 import Globals
 import Clock
-class ClockBuilder():
+class clock_builder():
 	@staticmethod
 	def buildBlueSquereFaceWithNumbersAndRedArrows(size,surf):
 		clockface = ClockFace.ClockSquareFace(surf,Globals.CALM_SEA,size)

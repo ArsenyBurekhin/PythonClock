@@ -3,14 +3,14 @@ import pygame, sys
 import time
 from pygame.locals import QUIT
 from Clock import Clock
-from ClockBuilder import ClockBuilder
+from ClockBuilder import clock_builder
 
 pygame.init()
 pygame.display.set_caption('Super Clock!')
 
 DISPLAYSURF = pygame.display.set_mode((500, 500))
 
-clock = ClockBuilder.buildBlueSquereFaceWithNumbersAndRedArrows(120,DISPLAYSURF)
+clock = clock_builder.buildBlueSquereFaceWithNumbersAndRedArrows(120,DISPLAYSURF)
 clock.draw()
 
 while True:
